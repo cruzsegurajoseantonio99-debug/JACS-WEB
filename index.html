@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin">
+    <meta name="description"
+        content="JACS Studio: Estudio multidisciplinar especializado en diseño gráfico, desarrollo web y producción de entornos 3D. Estrategia y producción final.">
+    <title>JACS Studio | Diseño Gráfico, Web y Entornos 3D</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Hanken+Grotesk:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body id="top">
+    <!-- CABECERA WEB-->
+    <header class="cabecera">
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="images/logoprincipaljacs.svg" alt="JACS - Estudio de diseño y desarrollo web">
+            </a>
+        </h1>
+
+        <!-- Menú Escritorio -->
+        <nav class="nav-desktop" aria-label="Navegación principal">
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#proceso">Cómo trabajo</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="controles-cabecera">
+
+            <button class="icono-menu" aria-label="Abrir menú de perfil">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"
+                    style="enable-background:new 0 0 34 34;">
+                    <style type="text/css">
+                        .st0 {
+                            fill: currentColor;
+                        }
+                    </style>
+                    <g>
+                        <path class="st0"
+                            d="M17,0C7.6,0,0,7.6,0,17s7.6,17,17,17c9.4,0,17-7.6,17-17S26.4,0,17,0z M22.8,14.7l-2.2,0.6 c-0.1-0.6-0.4-0.9-0.8-0.9c-0.6,0-0.8,0.6-0.8,1.8c0,1.2,0.3,1.8,0.8,1.8c0.4,0,0.7-0.3,0.8-0.9l2.2,0.6c-0.1,0.5-0.3,1-0.7,1.4 c0.5-0.1,1-0.1,1.6-0.1c1.8,0,3.2,0.7,4.1,2.2l-3,0.9c-0.3-0.4-0.6-0.5-1.1-0.5s-0.7,0.1-0.7,0.4c0,0.3,0.2,0.5,0.7,0.6l1.5,0.5h0 c1.8,0.6,2.8,1.5,2.8,2.6c0,1.2-0.4,2-1.2,2.6s-1.9,0.8-3.2,0.8c-2.3,0-3.9-0.8-4.9-2.4l2.8-1.1c0.3,0.7,0.9,1,1.8,1 c0.5,0,0.8-0.2,0.8-0.5s-0.2-0.5-0.6-0.7L22.2,25c-2-0.6-3-1.5-3-2.7c0-0.9,0.3-1.6,0.8-2.1c-0.1,0-0.2,0-0.2,0 c-0.6,0-1.1-0.2-1.6-0.5v0.5c0,2.6-0.6,4.6-1.8,6.3c-1.2,1.6-2.9,2.6-5.2,2.6c-3.7,0-6.2-2.7-7.3-7.8l5.4-1.9 c0.1,0.5,0.2,1,0.4,1.4c0.4,1.1,0.9,1.6,1.5,1.6c1,0,1.5-0.7,1.5-2.2V4.7h5.6v8c0.1-0.1,0.2-0.1,0.3-0.2L21,4.7h4.1l3,9.4h-3.7 L24.1,13h-2.2C22.4,13.4,22.7,14,22.8,14.7z" />
+                        <polygon class="st0" points="22.2,11 23.5,11 22.8,8.3" />
+                    </g>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!--HERO-->
+        <section class="hero">
+            <figure class="hero-ilustracion-top">
+                <img src="images/ilustracionsaludohero.svg" alt="ilustración de diseñador saludando">
+            </figure>
+            <header class="hero-texto">
+                <h2><strong>ESTUDIO</strong> de <strong>DISEÑO</strong><br> para marcas, entidades y encargos personales
+                </h2>
+                <p>Entender la historia detrás de tu proyecto y acompañarte desde el primer boceto hasta la pieza
+                    terminada, sea digital, impresa o física.</p>
+                <a href="#servicios" class="btn-naranja">Ver Servicios</a>
+            </header>
+        </section>
+
+        <!--SERVICIOS-->
+        <section class="servicios" id="servicios" aria-labelledby="titulo-servicios">
+            <header class="servicios__cabecera">
+                <div class="servicios__cabecera-texto">
+                    <figure class="servicios__ilustracion-principal">
+                        <img src="images/ilustracionservicios.svg"
+                            alt="Ilustración de JACS dentro de una bombilla">
+                    </figure>
+                    <h2 id="titulo-servicios">Una idea se define,<br>se comunica y<br>se produce.</h2>
+
+                    <p><strong>No tienes que llamar a diferentes puertas.</strong> <br><br>Trabajo con una visión
+                        integral para llevar tu proyecto de principio a fin. Ya sea la identidad visual de tu nueva
+                        marca, el desarrollo web semántico o un encargo físico a medida, evitaremos que tu mensaje se
+                        pierda en el proceso.<br><br><strong>¿Qué puedo ofrecerte?</strong></p>
+                </div>
+
+            </header>
+            <!-- LISTA DE SERVICIOS -->
+            <ul class="servicios__lista">
+                <li class="servicio-item">
+                    <article class="servicio-card">
+                        <figure class="servicio-card__ilustracion">
+                            <img src="images/ilustracionidentidadbranding.svg"
+                                alt="Avatar de JACS diseñando con lápiz y bombilla">
+                        </figure>
+                        <h3>Identidad y Branding</h3>
+                        <p><strong>Damos forma a la identidad de tu marca</strong> para que refleje quién eres, conecte
+                            con tu público y transmita el valor de tu negocio.</p>
+                        <ul class="capsulas-lista" aria-label="Especialidades en Identidad y Branding">
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Identidad Visual</summary>
+                                    <p class="capsula-definicion">Si sientes que tu negocio tiene mucho que ofrecer pero
+                                        su imagen no consigue transmitirlo, este servicio te ayuda a darle una identidad
+                                        visual clara, profesional y reconocible.<br><br>Se trabaja la parte gráfica de
+                                        la marca para que refleje quién eres, conecte con
+                                        tu público y te permita presentarte con confianza en cada punto de contacto.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Manual de Marca</summary>
+                                    <p class="capsula-definicion">Tener una identidad definida es solo el primer paso;
+                                        saber utilizarla correctamente es lo que permite mantenerla en el
+                                        tiempo.<br><br>
+                                        El manual de marca reúne las pautas necesarias para aplicar tu identidad de
+                                        forma coherente en redes sociales, web, publicidad, documentos y soportes
+                                        físicos, evitando que la marca pierda consistencia a medida que crece.</p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Sistema de Color y Tipografía</summary>
+                                    <p class="capsula-definicion">Los colores y las tipografías influyen directamente en
+                                        la forma en la que una marca se percibe.<br><br>Este servicio permite definir
+                                        una combinación visual pensada para transmitir la
+                                        personalidad y el posicionamiento que buscas, consiguiendo que tu comunicación
+                                        tenga coherencia y que tu marca empiece a ser reconocible por su propio lenguaje
+                                        visual.</p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Rebranding</summary>
+                                    <p class="capsula-definicion">Si tu marca ha evolucionado pero su imagen se ha
+                                        quedado atrás, un rebranding puede ayudarte a ponerlas de nuevo en sintonía.
+                                        <br><br>
+                                        Se revisa lo que tienes actualmente para detectar qué merece conservarse y qué
+                                        necesita evolucionar, consiguiendo una identidad más actual y alineada con el
+                                        momento en el que se encuentra tu negocio, sin perder aquello que ya has
+                                        construido.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Auditoría de Marca</summary>
+                                    <p class="capsula-definicion">A veces es difícil detectar desde dentro qué está
+                                        funcionando en una marca y qué podría mejorarse.
+                                        <br><br>
+                                        Una auditoría permite analizar su identidad, comunicación y percepción para
+                                        encontrar incoherencias, oportunidades y puntos de mejora.
+                                        Es especialmente útil si estás pensando en rediseñar tu marca pero antes
+                                        necesitas entender qué necesita realmente.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Tono de Marca</summary>
+                                    <p class="capsula-definicion">Una marca no solo comunica a través de lo que muestra,
+                                        sino también de cómo habla.<br><br>
+                                        Definir su tono permite establecer una forma de comunicarse que resulte natural,
+                                        coherente y reconocible para tu público.Te ayudará a mantener una personalidad
+                                        clara en textos, redes sociales,
+                                        campañas, web y cualquier otro espacio donde tu marca tenga algo que decir.</p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Dirección de Arte</summary>
+                                    <p class="capsula-definicion">Si necesitas que tu marca se vea coherente y cuidada
+                                        más allá del logotipo, la dirección de arte permite definir cómo debe expresarse
+                                        visualmente en fotografías, campañas, contenidos y diferentes piezas
+                                        gráficas.<br><br>
+                                        Es una forma de conseguir que cada elemento siga una misma línea estética y que
+                                        la percepción de tu marca esté a la altura de lo que quieres transmitir.</p>
+                                </details>
+                            </li>
+                        </ul>
+                    </article>
+                </li>
+                <li class="servicio-item">
+                    <article class="servicio-card">
+                        <figure class="servicio-card__ilustracion">
+                            <img src="images/ilustracioncomunicaciongrafica.svg"
+                                alt="Avatar de JACS con una carta de colores">
+                        </figure>
+                        <h3>Comunicación Gráfica</h3>
+                        <p><strong>Haz que tu mensaje se entienda, se vea y se recuerde</strong>.<br>Te ayudo a
+                            convertir tus ideas en piezas gráficas claras y atractivas.</p>
+                        <ul class="capsulas-lista" aria-label="Especialidades en Comunicación Gráfica">
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Diseño Publicitario</summary>
+                                    <p class="capsula-definicion">Para comunicar un mensaje o intenciones en un espacio
+                                        físico, es
+                                        importante que el mensaje se entienda de un vistazo y destaque en su
+                                        entorno.<br><br>
+                                        Te ayudo a llevar tu idea a carteles, lonas, vinilos, displays y otros formatos
+                                        de gran tamaño, cuidando tanto el impacto visual como la correcta adaptación al
+                                        espacio.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Maquetación</summary>
+                                    <p class="capsula-definicion">Diseño y organización de elementos visuales en una
+                                        página o documento, asegurando una presentación clara y atractiva.</p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Mechardising</summary>
+                                    <p class="capsula-definicion">Si quieres llevar la identidad de tu marca más allá de
+                                        la pantalla y hacerla parte de objetos y soportes físicos, este servicio te
+                                        permite hacerlo de forma cuidada y coherente.<br><br>
+                                        Te ayudo a adaptar tu identidad a productos, regalos corporativos, packaging,
+                                        prendas, material promocional y otros elementos personalizados, para que cada
+                                        detalle contribuya a que tu marca sea reconocible y memorable.</p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Redes Sociales</summary>
+                                    <p class="capsula-definicion">Gestión, creación y estrategia en plataformas de redes
+                                        sociales para fortalecer la presencia digital de tu marca y engagement con tu
+                                        audiencia.</p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Ilustraciones</summary>
+                                    <p class="capsula-definicion">Diseño y creación de ilustraciones únicas que reflejen
+                                        la identidad de tu marca y comuniquen tu mensaje de forma visualmente atractiva.
+                                    </p>
+                                </details>
+                            </li>
+                        </ul>
+                    </article>
+                </li>
+                <li class="servicio-item">
+                    <article class="servicio-card">
+                        <figure class="servicio-card__ilustracion">
+                            <img src="images/ilustraciondiseñoweb.svg"
+                                alt="Avatar de JACS maquetando en el ordenador">
+                        </figure>
+                        <h3>Diseño Web</h3>
+                        <p><strong>Tu web debería explicar lo que haces, transmitir quién eres y facilitar que tus
+                                clientes den el siguiente paso.</strong></p>
+                        <ul class="capsulas-lista" aria-label="Especialidades en Identidad y Branding">
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Diseño UI/UX</summary>
+                                    <p class="capsula-definicion">Una web no solo tiene que verse bien; también tiene
+                                        que resultar fácil de entender y utilizar.<br><br>
+                                        Te ayudo a organizar los contenidos, definir la estructura y diseñar cada
+                                        pantalla pensando en cómo navegará tu cliente, para que encuentre lo que busca y
+                                        llegue de forma sencilla a donde quieres que llegue.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Maquetación Front-End</summary>
+                                    <p class="capsula-definicion">Si ya tienes un diseño web y necesitas convertirlo en
+                                        una página real, aquí es donde cobra vida.<br><br>
+                                        Me encargo de trasladar el diseño a una web funcional, cuidando la adaptación a
+                                        móvil, tablet y ordenador para que la experiencia visual y de navegación se
+                                        mantenga en cualquier dispositivo.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">E-commerce</summary>
+                                    <p class="capsula-definicion">Si quieres vender tus productos o servicios online,
+                                        este servicio te ayuda a crear una tienda digital atractiva y funcional.<br><br>
+                                        Te ayudo a configurar la plataforma de e-commerce, organizar los productos,
+                                        diseñar la experiencia de compra y asegurar que el proceso sea seguro y fácil
+                                        para tus clientes.
+                                    </p>
+                                </details>
+                            </li>
+                            <li>
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">WordPress</summary>
+                                    <p class="capsula-definicion">Si buscas una solución flexible y fácil de gestionar
+                                        para tu web, WordPress es una excelente opción.<br><br>
+                                        Te ayudo a instalar, configurar y personalizar tu sitio en WordPress, adaptando
+                                        temas y plugins según tus necesidades, para que tengas un sitio web profesional
+                                        y fácil de mantener.
+                                    </p>
+                                </details>
+                            </li>
+                        </ul>
+                    </article>
+                </li>
+                <li class="servicio-item">
+                    <article class="servicio-card">
+                        <figure class="servicio-card__ilustracion">
+                            <img src="images/ilustracion3d.svg" alt="Avatar de JACS junto a una impresora 3D">
+                        </figure>
+                        <h3>ENTORNO 3D</h3>
+                        <p><strong>A veces una idea es difícil de explicar hasta que puedes verla.</strong><br><br>El 3D
+                            te permite dar forma a aquello que tienes en mente, probarlo, enseñarlo y, cuando sea
+                            necesario, convertirlo en algo real.</p>
+                        <ul class="capsulas-lista" aria-label="Especialidades en el Entorno 3D">
+                            <li class="capsula-item">
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Modelado de Productos</summary>
+                                    <p class="capsula-definicion">¿Tienes una idea, un boceto o un producto que todavía
+                                        no puedes visualizar del todo? Puedo ayudarte a darle forma en 3D para que
+                                        puedas verlo antes de fabricarlo.<br><br>
+                                        Así podrás valorar proporciones, detalles y acabados, hacer cambios con más
+                                        facilidad y tener una representación clara de lo que quieres conseguir.</p>
+                                </details>
+                            </li>
+                            <li class="capsula-item">
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Impresión 3D</summary>
+                                    <p class="capsula-definicion">Si después de verlo quieres tenerlo en tus manos,
+                                        puedo convertir el modelo digital en una pieza física mediante impresión
+                                        3D.<br><br>
+                                        Es una buena opción para probar una idea, hacer un prototipo, crear una pieza
+                                        personalizada o simplemente comprobar cómo funciona algo antes de dar el
+                                        siguiente paso.</p>
+                                </details>
+                            </li>
+                            <li class="capsula-item">
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Postprocesado</summary>
+                                    <p class="capsula-definicion">Si necesitas que tenga un aspecto más cuidado o que
+                                        esté preparada para enseñar o utilizar, puedo trabajar su acabado mediante
+                                        diferentes procesos de lijado, montaje y tratamiento de la superficie.</p>
+                                </details>
+                            </li>
+                            <li class="capsula-item">
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Renderizado</summary>
+                                    <p class="capsula-definicion">¿Necesitas enseñar un producto que todavía no existe
+                                        físicamente? Con un render podemos hacerlo visible antes de fabricarlo. </p>
+                                </details>
+                            </li>
+                            <li class="capsula-item">
+                                <details class="capsula-desplegable">
+                                    <summary class="capsula-boton">Animación de Producto</summary>
+                                    <p class="capsula-definicion">Si necesitas enseñar cómo funciona un producto, cómo
+                                        se monta, qué ocurre en su interior o simplemente quieres presentarlo de una
+                                        forma más atractiva, una animación 3D puede ayudarte a contarlo de manera visual
+                                        y fácil de entender.</p>
+                                </details>
+                            </li>
+                        </ul>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="proyectos" id="proyectos" aria-labelledby="titulo-proyectos">
+            <div class="proyectos__transicion" aria-hidden="true">
+                <div class="casquillo-punta"></div>
+                <div class="casquillo-linea"></div>
+                <div class="casquillo-linea"></div>
+            </div>
+
+            <div class="proyectos__contenido">
+                <h2 id="titulo-proyectos" class="proyectos__titulo">PROYECTOS</h2>
+                <p class="proyectos__texto">Está muy bien que te cuente todo lo que sé hacer, pero has llegado hasta
+                    aquí para ver, no leer.<br><br>Vamos a lo que importa.</p>
+
+                <!-- Galería  -->
+                <div class="proyectos__galeria-wrapper">
+                    <div class="proyectos__galeria-track">
+                        <!-- GRUPO 1 -->
+                        <div class="galeria-set">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=TFM+JACS" alt="Proyecto TFM"
+                                width="450" height="320" decoding="async">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=Feria+Algaba"
+                                alt="Carteles Algaba" width="450" height="320" decoding="async">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=Atco+Algabeno" alt="Atco Algabeño"
+                                width="450" height="320" decoding="async">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=Horizonte+3D" alt="Horizonte 3D"
+                                width="450" height="320" decoding="async">
+                        </div>
+
+                        <!-- GRUPO 2 -->
+                        <div class="galeria-set" aria-hidden="true">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=TFM+JACS" alt="" width="450"
+                                height="320" loading="lazy">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=Feria+Algaba" alt="" width="450"
+                                height="320" loading="lazy">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=Atco+Algabeno" alt="" width="450"
+                                height="320" loading="lazy">
+                            <img src="https://placehold.co/450x320/031E45/F2A900?text=Horizonte+3D" alt="" width="450"
+                                height="320" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <a href="portfolio.html" class="btn-naranja">VER PROYECTOS</a>
+            </div>
+        </section>
+
+        <!-- PROCESO DE TRABAJO -->
+
+        <section class="proceso" id="proceso" aria-labelledby="titulo-proceso">
+            <header class="proceso__cabecera">
+                <h2 id="titulo-proceso">DE PRINCIPIO A FIN</h2>
+                <p>Transparencia total. Cero sorpresas y las cosas claras desde el primer email hasta la entrega de los
+                    archivos finales.</p>
+            </header>
+
+            <ol class="proceso__timeline">
+                <li class="timeline__paso">
+                    <img class="proceso__imagen" src="images/Recurso 5.svg"
+                        alt="Ilustración Avatar en Reunión con cliente">
+                    <h3>Toma de contacto</h3>
+                    <p>El trato directo se ha vuelto raro. Por eso, empezamos sentándonos a hablar. Escucho la historia
+                        detrás de tu negocio y entiendo qué necesitas antes de dibujar nada. <em>match</em>.</p>
+                </li>
+                <li class="timeline__paso">
+                    <img class="proceso__imagen" src="images/ilustracionpresupuesto.svg"
+                        alt="Ilustración de JACS con un cuaderno y un lápiz">
+                    <h3>El Plan (y los números)</h3>
+                    <p>Las cosas por escrito. Presento una propuesta rigurosa donde detallo la hoja de ruta, los plazos
+                        y el presupuesto sin letras pequeñas.</p>
+                </li>
+                <li class="timeline__paso">
+                    <img class="proceso__imagen" src="images/ilustracionmanosalaobra.svg"
+                        alt="Ilustración de JACS mostrando elementos creativos en su cerebro">
+                    <h3>Manos a la obra</h3>
+                    <p>Me encierro en el estudio en Sevilla a diseñar, maquetar o modelar. Hacemos revisiones pautadas
+                        para que veas crecer tu proyecto y formes parte de él.</p>
+                </li>
+                <li class="timeline__paso">
+                    <img class="proceso__imagen" src="images/ilustracionavolar.svg"
+                        alt="Ilustración de JACS con un plano y un lápiz">
+                    <h3>Entrega y a volar</h3>
+                    <p>Tu marca lista, la web en el servidor o el archivo preparado para imprenta. Te entrego todo
+                        ordenado para que la idea original sea exactamente lo que llega al público.</p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- SOBRE MÍ -->
+
+
+        <section class="perfil-bento" id="sobre-mi" aria-labelledby="titulo-perfil">
+
+            <div class="bento-grid">
+
+                <header class="bento-item bento-titulo">
+                    <h2 id="titulo-perfil">Mucho más que <br><strong>DISEÑO GRÁFICO</strong></h2>
+                </header>
+
+                <div class="bento-item bento-intro">
+                    <p>"Soy José Antonio Cruz Segura. Entiendo el diseño como el puente exacto entre lo que imaginas y lo que puedes tocar. Por eso, antes de encender las pantallas, prefiero sentarme, escucharte y trazar juntos en un papel la ruta para hacer tu idea realidad."</p>
+                </div>
+
+
+                <figure class="bento-item bento-img">
+                    <img src="images/fotosobremi.png"
+                        alt="Retrato en el estudio de diseño" loading="lazy">
+                </figure>
+
+
+                <blockquote class="bento-item bento-destacado">
+                    <p>"Aprendí viendo mecanizar piezas en el torno que un boceto cobra su verdadero valor cuando se
+                        convierte en algo real. Hoy aplico esa misma obsesión por lo tangible a cada marca y cada reto que se presente."</p>
+                </blockquote>
+
+                <div class="bento-item bento-skills">
+                    <p>Mi trayectoria no se limita a dibujar interfaces bonitas. Trabajar para distintos entornos me ha
+                        enseñado que cada proyecto necesita una base sólida. Entiendo el diseño como una herramienta
+                        para resolver problemas, no solo para decorar.</p>
+                    <p class="margen-top">Hoy sigo queriendo aprender en un mundo que daría para mil vidas. Por eso mi
+                        perfil es transversal. Entiendo el diseño como una herramienta rigurosa para resolver problemas,
+                        ya sea picando código con enfoque mobile-first desde La Algaba, diseñando una identidad visual,
+                        o dejando la impresora 3D trabajando por la noche.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contacto" id="contacto" aria-labelledby="titulo-contacto">
+                <img src="images/cafelito.svg" alt="Ilustración de José Antonio Cruz tomando un café" class="contacto__avatar"
+                loading="lazy">
+            <h2 id="titulo-contacto">¿Empezamos con ese papel en blanco?</h2>
+
+            <!-- Botón disparador móvil-->
+            <button id="btn-abrir-contacto" class="btn-correo" aria-label="Abrir formulario de contacto">
+                <span class="btn-correo__texto">MANDAR MENSAJE</span>
+                <span class="btn-correo__icono">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </span>
+            </button>
+
+            <div id="contacto-overlay" class="contacto__overlay"></div>
+
+            <!-- Contenedor Bottom Sheet -->
+            <div id="contacto-sheet" class="contacto__sheet">
+                <!-- Píldora visual de arrastre (UI hint) -->
+                <div class="sheet__drag-handle"></div>
+                <button id="btn-cerrar-contacto" class="btn-cerrar-sheet"
+                    aria-label="Cerrar formulario">&times;</button>
+
+                <h3 class="sheet__titulo">Cuéntame tu idea</h3>
+
+                <form id="formulario-contacto" class="contacto__formulario">
+                    <div class="grupo-input">
+                        <input type="text" name="nombre" placeholder="Tu Nombre" aria-label="Tu Nombre" required>
+                    </div>
+                    <div class="grupo-input">
+                        <input type="email" name="email" placeholder="Tu Email" aria-label="Tu Email" required>
+                    </div>
+                    <div class="grupo-input">
+                        <textarea name="mensaje" placeholder="Cuéntame tu proyecto..." rows="4" aria-label="Tu Mensaje"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-correo btn-enviar-form" aria-label="Enviar formulario">
+                        <span class="btn-correo__texto">ENVIAR</span>
+                    </button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- FOOTER GLOBAL -->
+        <footer class="footer-global">
+            <a href="#top" class="btn-subir-sello" aria-label="Volver al inicio de la página">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <line x1="12" y1="19" x2="12" y2="5"></line>
+                    <polyline points="5 12 12 5 19 12"></polyline>
+                </svg>
+            </a>
+            <div class="footer__marca">
+                <img src="images/logoprincipaljacs.svg" alt="JACS Diseño, 3D, Web" class="footer__logo-img"
+                    loading="lazy">
+            </div>
+            <nav class="footer__enlaces" aria-label="Navegación del pie de página">
+                <ul class="enlaces__columna">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html#servicios">Servicios</a></li>
+                    <li><a href="portfolio.html">Proyectos</a></li>
+                </ul>
+                <ul class="enlaces__columna">
+                    <li><a href="avisolegal.html">Aviso Legal</a></li>
+                    <li><a href="privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="cookies.html">Cookies</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__sociales" aria-label="Redes sociales">
+                <ul class="sociales__lista">
+                    <li><a href="https://www.instagram.com/jacs_d3w/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg></a></li>
+                    <li><a href="https://www.tiktok.com/@jacs.estudio3?is_from_webapp=1&sender_device=pc"
+                            target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-tiktok" viewBox="0 0 16 16">
+                                <path
+                                    d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                            </svg></a></li>
+                </ul>
+            </nav>
+            <small class="footer__copyright">
+                &copy; 2026 José Antonio Cruz Segura. Todos los derechos reservados.
+            </small>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
